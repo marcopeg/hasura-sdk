@@ -1,0 +1,28 @@
+{
+  "name": "hasura-sdk",
+  "description": "Utilities to deal with Hasura's API",
+  "version": "0.0.1",
+  "author": "Marco Pegoraro <marco.pegoraro@gmail.com",
+  "bugs": {
+    "url": "https://github.com/marcopeg/hasura-sdk/issues"
+  },
+  "homepage": "https://github.com/marcopeg/hasura-sdk#readme",
+  "keywords": [
+    "hasura",
+    "api",
+    "sdk"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/marcopeg/hasura-sdk",
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -f yarn.lock && rm -f package-lock.json",
+    "test": "jest",
+    "tdd": "jest --watchAll"
+  },
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
