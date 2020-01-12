@@ -1,7 +1,7 @@
 {
   "name": "hasura-sdk",
   "description": "Utilities to deal with Hasura's API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Marco Pegoraro <marco.pegoraro@gmail.com",
   "bugs": {
     "url": "https://github.com/marcopeg/hasura-sdk/issues"
