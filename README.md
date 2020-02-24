@@ -4,7 +4,7 @@
 const sdk = require('hasura-sdk');
 
 sdk.init({
-    endpoint: 'http://localhost:8080',
+    endpoint: 'http://localhost:8080/v1/query',
     adminSecret: 'your-secret',
 });
 
